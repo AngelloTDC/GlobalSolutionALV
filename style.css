@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#title {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ffc8;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adiciona uma direção de coluna para o alinhamento vertical */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: #00ffc8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #01a380;
+    cursor: pointer;
+}
