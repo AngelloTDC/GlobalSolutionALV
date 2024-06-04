@@ -90,3 +90,22 @@ footer a:hover {
     color: #01a380;
     cursor: pointer;
 }
+
+.todos-membros {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+ 
+.membro {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.membro img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
